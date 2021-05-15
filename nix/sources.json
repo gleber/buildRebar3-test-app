@@ -1,0 +1,50 @@
+{
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "af958e8057f345ee1aca714c1247ef3ba1c15f5e",
+        "sha256": "1qjavxabbrsh73yck5dcq8jggvh3r2jkbr6b5nlz5d9yrqm9255n",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/af958e8057f345ee1aca714c1247ef3ba1c15f5e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nix-filter": {
+        "branch": "master",
+        "description": "a small self-container source filtering lib",
+        "homepage": "",
+        "owner": "numtide",
+        "repo": "nix-filter",
+        "rev": "cf06efe613a06f1505f187712a307c05b3901884",
+        "sha256": "1884qzr3ccrl4k7dyww4ckm1qvl6gqzqxg0gfrpxz8kgmn867rp0",
+        "type": "tarball",
+        "url": "https://github.com/numtide/nix-filter/archive/cf06efe613a06f1505f187712a307c05b3901884.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "20.09",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cd63096d6d887d689543a0b97743d28995bc9bc3",
+        "sha256": "1wg61h4gndm3vcprdcg7rc4s1v3jkm5xd7lw8r2f67w502y94gcy",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/cd63096d6d887d689543a0b97743d28995bc9bc3.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-patched": {
+        "branch": "rebar3-bare-compile2",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "dlesl",
+        "repo": "nixpkgs",
+        "rev": "d778d49263a28fabfdfed18362cf52340aeabd5a",
+        "sha256": "02b1z0y4gq1ac17bakxnydqm0pvwsx4q4hd4b65fd163pkhi9r5y",
+        "type": "tarball",
+        "url": "https://github.com/dlesl/nixpkgs/archive/d778d49263a28fabfdfed18362cf52340aeabd5a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
